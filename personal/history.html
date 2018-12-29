@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <title>History</title>
+</head>
+<body>
+
+<nav class="navbar navbar-light bg-light">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</nav>
+
+<!-- Sidebar menu -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+      <div class="profile-sidebar">
+         <div class="user-pic">
+            <img class="img-responsive img-rounded" src="13240768_1240815959284711_7536989394325149117_n.jpg">
+          </div>
+          <div class="user-info">
+            <span class="user-name">Echi Nesia</span>
+            <span class="user-role">Administrator</span>
+        </div>
+      </div>
+    </div>
+    <div class="side-menu">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="review.html">Review</a>
+      <a href="history.html">History</a>
+      <a href="#">Searching</a>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+
+<h1>History</h1>
+
+<div class="container">
+<table class="table">
+    <thead class="thead-light">
+    <tr>
+      <th scope="col">Today</th>
+      <th scope="col">Rp 300.000</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Extra Income</td>
+      <td>Rp 100.000</td>
+    </tr>
+    <tr>
+      <td>Salary</td>
+      <td>Rp 200.000</td>
+    </tr>
+  </tbody>
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Yesterday</th>
+      <th scope="col">Rp 678.000</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Misc</td>
+      <td>Rp 78.000</td>
+    </tr>
+    <tr>
+      <td>Insurance Payout</td>
+      <td>Rp 600.000</td>
+    </tr>
+</table>
+</div>
+  
+</body>
+</html>
